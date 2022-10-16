@@ -1,0 +1,437 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Oct 13 21:48:11 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45209 (port auto-assigned) fd 3
+Python version: 3.9.0 (default, Aug  3 2022, 10:50:45)  [GCC 11.2.0]
+Python main interpreter initialized at 0x564788b350f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 58084)
+spawned uWSGI worker 1 (pid: 58085, cores: 2)
+spawned uWSGI http 1 (pid: 58086)
+--- no python application found, check your startup logs for errors ---
+[pid: 58085|app: -1|req: -1/1] 127.0.0.1 () {46 vars in 875 bytes} [Thu Oct 13 21:52:34 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 58085|app: -1|req: -1/2] 127.0.0.1 () {46 vars in 894 bytes} [Thu Oct 13 21:53:39 2022] GET /bookstore => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 58085|app: -1|req: -1/3] 127.0.0.1 () {46 vars in 894 bytes} [Thu Oct 13 21:53:46 2022] GET /bookstore => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 58085|app: -1|req: -1/4] 127.0.0.1 () {46 vars in 876 bytes} [Thu Oct 13 21:55:10 2022] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 58086)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Oct 13 22:05:58 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44609 (port auto-assigned) fd 3
+Python version: 3.9.0 (default, Aug  3 2022, 10:50:45)  [GCC 11.2.0]
+Python main interpreter initialized at 0x55fff72b9160
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 61573)
+spawned uWSGI worker 1 (pid: 61574, cores: 2)
+spawned uWSGI http 1 (pid: 61575)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Oct 13 22:06:20 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Oct 13 22:07:11 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Oct 14 11:50:08 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46845 (port auto-assigned) fd 3
+Python version: 3.9.0 (default, Aug  3 2022, 10:50:45)  [GCC 11.2.0]
+Python main interpreter initialized at 0x55a7b250cf20
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x55a7b250cf20 pid: 9057 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9057)
+spawned uWSGI worker 1 (pid: 9059, cores: 2)
+spawned uWSGI http 1 (pid: 9060)
+MyMw process_request do--
+MyMw process_view do--
+MyMw process_response do--
+[pid: 9059|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 912 bytes} [Fri Oct 14 11:51:16 2022] GET /bookstore/all_book => generated 314 bytes in 480 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+MyMw process_request do--
+MyMw process_response do--
+Not Found: /favicon.ico
+[pid: 9059|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 837 bytes} [Fri Oct 14 11:51:16 2022] GET /favicon.ico => generated 4351 bytes in 329 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+MyMw process_request do--
+MyMw process_response do--
+Not Found: /bookstore
+[pid: 9059|app: 0|req: 3/3] 127.0.0.1 () {46 vars in 894 bytes} [Fri Oct 14 11:51:24 2022] GET /bookstore => generated 4345 bytes in 2 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+MyMw process_request do--
+MyMw process_view do--
+这是我的首页
+MyMw process_response do--
+[pid: 9059|app: 0|req: 4/4] 127.0.0.1 () {46 vars in 876 bytes} [Fri Oct 14 11:51:27 2022] GET / => generated 18 bytes in 0 msecs (HTTP/1.1 200) 5 headers in 165 bytes (1 switches on core 1)
+MyMw process_request do--
+MyMw process_response do--
+Not Found: /favicon.ico
+[pid: 9059|app: 0|req: 5/5] 127.0.0.1 () {44 vars in 819 bytes} [Fri Oct 14 11:51:27 2022] GET /favicon.ico => generated 4351 bytes in 2 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+MyMw process_request do--
+MyMw process_view do--
+MyMw process_response do--
+[pid: 9059|app: 0|req: 6/6] 127.0.0.1 () {46 vars in 912 bytes} [Fri Oct 14 11:52:05 2022] GET /bookstore/all_book => generated 314 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 1)
+MyMw process_request do--
+MyMw process_response do--
+Not Found: /favicon.ico
+[pid: 9059|app: 0|req: 7/7] 127.0.0.1 () {44 vars in 837 bytes} [Fri Oct 14 11:52:05 2022] GET /favicon.ico => generated 4351 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+MyMw process_request do--
+MyMw process_view do--
+MyMw process_response do--
+[pid: 9059|app: 0|req: 8/8] 127.0.0.1 () {46 vars in 912 bytes} [Fri Oct 14 11:54:54 2022] GET /bookstore/all_book => generated 314 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 1)
+MyMw process_request do--
+MyMw process_view do--
+MyMw process_response do--
+[pid: 9059|app: 0|req: 9/9] 127.0.0.1 () {46 vars in 912 bytes} [Fri Oct 14 11:56:14 2022] GET /bookstore/all_book => generated 314 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+MyMw process_request do--
+MyMw process_view do--
+MyMw process_response do--
+[pid: 9059|app: 0|req: 10/10] 127.0.0.1 () {46 vars in 912 bytes} [Fri Oct 14 11:56:15 2022] GET /bookstore/all_book => generated 314 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 1)
+MyMw process_request do--
+MyMw process_view do--
+MyMw process_response do--
+[pid: 9059|app: 0|req: 11/11] 127.0.0.1 () {46 vars in 912 bytes} [Fri Oct 14 11:56:41 2022] GET /bookstore/all_book => generated 314 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+MyMw process_request do--
+MyMw process_view do--
+MyMw process_response do--
+[pid: 9059|app: 0|req: 12/12] 127.0.0.1 () {46 vars in 912 bytes} [Fri Oct 14 11:56:41 2022] GET /bookstore/all_book => generated 314 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 9060)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Oct 14 12:10:16 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33663 (port auto-assigned) fd 3
+Python version: 3.9.0 (default, Aug  3 2022, 10:50:45)  [GCC 11.2.0]
+Python main interpreter initialized at 0x5600aae570f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5600aae570f0 pid: 10697 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10697)
+spawned uWSGI worker 1 (pid: 10699, cores: 2)
+spawned uWSGI http 1 (pid: 10700)
+111111111111111
+[pid: 10699|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 911 bytes} [Fri Oct 14 12:10:21 2022] GET /bookstore/all_book => generated 1355 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+111111111111111
+[pid: 10699|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 912 bytes} [Fri Oct 14 12:10:36 2022] GET /bookstore/all_book => generated 1355 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 1)
+111111111111111
+[pid: 10699|app: 0|req: 3/3] 127.0.0.1 () {46 vars in 912 bytes} [Fri Oct 14 12:10:39 2022] GET /bookstore/all_book => generated 1355 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 10699|app: 0|req: 4/4] 127.0.0.1 () {48 vars in 985 bytes} [Fri Oct 14 12:10:47 2022] GET /bookstore/update_book/1 => generated 586 bytes in 42 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 1)
+[pid: 10699|app: 0|req: 5/5] 127.0.0.1 () {54 vars in 1096 bytes} [Fri Oct 14 12:10:53 2022] POST /bookstore/update_book/1 => generated 0 bytes in 177 msecs (HTTP/1.1 302) 6 headers in 198 bytes (1 switches on core 0)
+111111111111111
+[pid: 10699|app: 0|req: 6/6] 127.0.0.1 () {48 vars in 980 bytes} [Fri Oct 14 12:10:53 2022] GET /bookstore/all_book => generated 1355 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 10699|app: 0|req: 7/7] 127.0.0.1 () {44 vars in 837 bytes} [Fri Oct 14 12:10:53 2022] GET /favicon.ico => generated 4351 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 10700)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Oct 14 12:50:10 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.9.0 (default, Aug  3 2022, 10:50:45)  [GCC 11.2.0]
+Python main interpreter initialized at 0x55e206e91010
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55e206e91010 pid: 15174 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15174)
+spawned uWSGI worker 1 (pid: 15176, cores: 2)
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Oct 14 12:50:20 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+Fri Oct 14 12:51:58 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct 14 12:51:58 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Oct 14 12:52:10 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.9.0 (default, Aug  3 2022, 10:50:45)  [GCC 11.2.0]
+Python main interpreter initialized at 0x556177600010
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556177600010 pid: 15199 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15199)
+spawned uWSGI worker 1 (pid: 15200, cores: 2)
+DAMN ! worker 1 (pid: 15200) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 15212)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Oct 14 12:53:29 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.9.0 (default, Aug  3 2022, 10:50:45)  [GCC 11.2.0]
+Python main interpreter initialized at 0x55b002a44010
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b002a44010 pid: 15228 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15228)
+spawned uWSGI worker 1 (pid: 15229, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 15229|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 947 bytes} [Fri Oct 14 12:56:35 2022] GET /bookstore/all_book => generated 1355 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 15229|app: 0|req: 2/2] 127.0.0.1 () {48 vars in 867 bytes} [Fri Oct 14 12:56:35 2022] GET /favicon.ico => generated 4346 bytes in 3 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 15229|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 947 bytes} [Fri Oct 14 12:56:42 2022] GET /bookstore/all_book => generated 1355 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 15229|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 921 bytes} [Fri Oct 14 13:52:05 2022] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 175 bytes (1 switches on core 0)
+[pid: 15229|app: 0|req: 5/5] 127.0.0.1 () {50 vars in 923 bytes} [Fri Oct 14 13:52:05 2022] GET /admin/ => generated 0 bytes in 90 msecs (HTTP/1.1 302) 10 headers in 430 bytes (1 switches on core 1)
+[pid: 15229|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 916 bytes} [Fri Oct 14 13:52:05 2022] GET /admin/login/?next=/admin/ => generated 2216 bytes in 100 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 15229|app: 0|req: 7/7] 127.0.0.1 () {54 vars in 969 bytes} [Fri Oct 14 13:53:00 2022] GET /admin/login/?next=/admin/ => generated 2216 bytes in 6 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 15229|app: 0|req: 8/8] 127.0.0.1 () {52 vars in 883 bytes} [Fri Oct 14 13:53:00 2022] GET /favicon.ico => generated 4346 bytes in 2 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 15229|app: 0|req: 9/9] 127.0.0.1 () {50 vars in 903 bytes} [Fri Oct 14 16:24:59 2022] GET /bookstore/all_book => generated 1355 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 1)
+[pid: 15229|app: 0|req: 10/10] 127.0.0.1 () {52 vars in 971 bytes} [Fri Oct 14 16:25:02 2022] GET /bookstore/update_book/1 => generated 586 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 15229|app: 0|req: 11/11] 127.0.0.1 () {52 vars in 971 bytes} [Fri Oct 14 16:25:10 2022] GET /bookstore/update_book/1 => generated 586 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 1)
+[pid: 15229|app: 0|req: 12/12] 127.0.0.1 () {50 vars in 903 bytes} [Fri Oct 14 19:39:04 2022] GET /bookstore/all_book => generated 1355 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 15229|app: 0|req: 13/13] 127.0.0.1 () {50 vars in 903 bytes} [Fri Oct 14 22:48:50 2022] GET /bookstore/all_book => generated 1355 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Oct 15 19:03:14 2022] ***
+compiled with version: 11.2.0 on 13 October 2022 13:24:41
+os: Linux-5.15.0-50-generic #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
+nodename: yang-T58-V
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 16
+current working directory: /home/PC_Projects/day07/mysite1/mysite1
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/PC_Projects/day07/mysite1
+your processes number limit is 62842
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.0 (default, Aug  3 2022, 10:50:45)  [GCC 11.2.0]
+Python main interpreter initialized at 0x55f6447e3eb0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 166752 bytes (162 KB) for 2 cores
+*** Operational MODE: threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55f6447e3eb0 pid: 73901 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 73901)
+spawned uWSGI worker 1 (pid: 73902, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+这是我的首页
+[pid: 73902|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 960 bytes} [Sat Oct 15 19:03:26 2022] GET / => generated 18 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 165 bytes (1 switches on core 0)
+[pid: 73902|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 903 bytes} [Sat Oct 15 19:03:33 2022] GET /bookstore/all_book => generated 1355 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.

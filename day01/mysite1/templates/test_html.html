@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>我的第一个网页</title>
+</head>
+<body>
+
+
+<h3>姓名为{{ username | upper }}～～～</h3>
+<h3>{{username}}年龄为{{age | add:'1' }}～～～</h3>
+<h3>list is {{subject}}</h3>
+<h3>subject[1] = {{subject.1}}</h3>
+<h3>dict is {{score}}</h3>
+<h3>dict的B分数 is {{ score.B }}</h3>
+{% if score.A > 100 %}
+    A分数优秀！
+{% elif score.A <= 100 and score.A >= 90 %}
+    A分数合格
+{% else %}
+    A 不合格
+{% endif %}
+
+<br>
+############
+<br>
+{% for i in subject %}
+    {{ forloop.counter }}
+<!--    {{ forloop.counter0 }}-->
+<!--    {{ forloop.revcounter }}-->
+<!--    {{ forloop.revcounter0 }}-->
+<!--    {{ forloop.first }}-->
+<!--    {{ forloop.last }}-->
+{% endfor %}
+
+
+</body>
+</html>
